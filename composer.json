@@ -1,0 +1,26 @@
+{
+    "name": "larakit/lk-sebot",
+    "description": "[Larakit] логирование se-ботов",
+    "version": "1.0.0",
+    "keywords": [
+        "laravel 5",
+        "acl",
+        "larakit"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Berdnikov",
+            "email": "aberdnikov@gmail.com"
+        }
+    ],
+    "require": {
+        "larakit/lk-telegrambot": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Larakit\\Acl\\": "src"
+        }
+    },
+     "minimum-stability": "dev"
+}
