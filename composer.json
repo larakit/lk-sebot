@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Larakit\\Acl\\": "src"
+            "Larakit\\SE\\": "src"
         }
     },
      "minimum-stability": "dev"
